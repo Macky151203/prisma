@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 
 function Addpost() {
     const router=useRouter()
@@ -26,6 +27,7 @@ function Addpost() {
   return (
     <>
     <div className='text-center text-2xl'>Addpost here</div>
+    <div className='text-center'><Link className='text-2xl' href='/'>Home</Link></div>
     <form className=' flex gap-3 mt-12 flex-col  justify-center items-center' onSubmit={handlesubmit}>
         <div>
             <label>Title-</label>
