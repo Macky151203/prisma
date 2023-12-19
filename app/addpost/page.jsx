@@ -25,7 +25,7 @@ function Addpost() {
     }
   return (
     <>
-    <div className='text-center text-2xl'>Addpost</div>
+    <div className='text-center text-2xl'>Addpost here</div>
     <form className=' flex gap-3 mt-12 flex-col  justify-center items-center' onSubmit={handlesubmit}>
         <div>
             <label>Title-</label>
